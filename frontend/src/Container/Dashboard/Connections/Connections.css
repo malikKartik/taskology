@@ -1,0 +1,37 @@
+.dashboard-connections .searched-user{
+    position: relative;
+    width: 100%;
+    min-height: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.dashboard-connections .searched-user .serached-user-name{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.dashboard-connections .searched-user .add-serached-user{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+}
+
+.dashboard-connections .friend-list{
+    position: relative;
+    width: 100%;
+    min-height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 4px;
+}
+.dashboard-connections .friend-list .friend{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,18 @@
+.dashboard-profile{
+    background-color: white;
+    min-height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.dashboard-profile h3{
+    margin-top: 0;
+}
+.dashboard .textfield{
+    width: 220px;
+    height: 30px;
+    margin: 5px 0;
+    padding-left: 10px;
+}

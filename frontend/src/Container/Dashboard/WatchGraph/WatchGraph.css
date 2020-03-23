@@ -1,0 +1,15 @@
+.dashboard-watch-graph-container{
+    width: 100%;
+    height: fit-content;
+}
+.dashboard-watch-graph-container .dashboard-watch-graph{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    grid-gap: 30px;
+}
+
+.dashboard-watch-graph div{
+    background-color: blanchedalmond;
+}

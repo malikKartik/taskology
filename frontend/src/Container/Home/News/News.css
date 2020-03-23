@@ -1,0 +1,31 @@
+.home-news{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #bed3ff;
+    margin-top: 50px;
+    overflow-y: hidden;
+}
+.home-news h1{
+    text-align: center;
+}
+.home-news .news-inner-container{
+    width: 80%;
+    height: 100%;
+    overflow-y: scroll;
+    margin: 0 auto;
+}
+
+.home-news .news-inner-container::-webkit-scrollbar{
+    width: 5px;
+}
+
+.home-news .news-inner-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.home-news .news-inner-container::-webkit-scrollbar-thumb {
+    background: rgb(52, 111, 238);
+    border-radius: 5px;
+}

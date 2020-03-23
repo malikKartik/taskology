@@ -1,0 +1,30 @@
+{
+  "name": "01first-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@antv/g2plot": "^0.11.40",
+    "@date-io/date-fns": "^2.4.0",
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/pickers": "^3.2.10",
+    "axios": "^0.19.2",
+    "date-fns": "^2.11.0",
+    "react": "^16.12.0",
+    "react-chart": "0.0.1",
+    "react-charts": "^2.0.0-beta.6",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.5",
+    "use-force-update": "^1.0.7",
+    "woocommerce-api": "^1.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

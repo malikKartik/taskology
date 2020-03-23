@@ -1,0 +1,53 @@
+.board{
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+}
+
+.board .board-list{
+    background-color: white;
+    height: calc(fit-content + 10px);
+    width: calc(100% - 4px);
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+
+.board .board-list-button{
+    background-color: transparent;
+    height: 200px;
+    width: calc(100% - 4px);
+}
+.board .board-list .list-heading{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: monospace;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.board .board-list hr{
+    border: 0.6px solid rgba(0,0,0,0.5);
+}
+
+.board .add-list-btn{
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+}
+.board-lists-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    grid-gap: 18px;
+}
+#dashboard-addlist-listname{
+    height: 30px;
+    width: 250px;
+    margin: 10px;
+    padding-left: 5px;
+}
+#dashboard-addlist-btn{
+    margin-bottom: 10px;
+}
